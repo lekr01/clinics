@@ -13,7 +13,7 @@ namespace clinics.Controllers
         {
             _clinicRepository = clinicRepository;
         }
-
+        // commit 
         [HttpGet]
         public async Task<IActionResult> GetClinics()
         {
